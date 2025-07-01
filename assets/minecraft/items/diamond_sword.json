@@ -1,0 +1,18 @@
+{
+  "model": {
+    "on_false": {
+      "model": "minecraft:item/diamond_sword",
+      "type": "minecraft:model"
+    },
+    "on_true": {
+      "model": "packshq:item/sword/aspect_of_the_end",
+      "type": "minecraft:model"
+    },
+    "predicate": "custom_data",
+    "property": "minecraft:component",
+    "type": "minecraft:condition",
+    "value": {
+      "id": "ASPECT_OF_THE_END"
+    }
+  }
+}

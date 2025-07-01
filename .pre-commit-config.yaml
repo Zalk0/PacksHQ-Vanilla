@@ -1,0 +1,19 @@
+repos:
+- repo: https://github.com/pre-commit/pre-commit-hooks
+  rev: v5.0.0
+  hooks:
+  - id: check-case-conflict
+  - id: check-json
+  - id: end-of-file-fixer
+  - id: fix-byte-order-marker
+  - id: trailing-whitespace
+    args: [ --markdown-linebreak-ext=md ]
+
+- repo: local
+  hooks:
+    - id: format-json
+      name: Format JSON
+      entry: python scripts/format-json.py
+      args: [ --autofix, --compact-arrays, --top-keys=min_inclusive ]
+      language: system
+      files: \.(json|mcmeta)$

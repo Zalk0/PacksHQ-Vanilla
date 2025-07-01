@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "\u00a7c\u00a7l\u00a7nNow vanilla!\u00a7r  \u00a7a\u00a7l[\u00a7r\u00a76\u00a7l32x\u00a7a\u00a7l]\n \u00a7rby Packs HQ",
+    "pack_format": 55,
+    "supported_formats": {
+      "min_inclusive": 55,
+      "max_inclusive": 64
+    }
+  }
+}

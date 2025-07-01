@@ -1,0 +1,11 @@
+{
+  "display": {
+    "gui": {
+      "scale": [ 1.12, 1.12, 1.12 ]
+    }
+  },
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "packshq:item/ui/null_pane"
+  }
+}

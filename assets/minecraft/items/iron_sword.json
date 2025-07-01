@@ -1,0 +1,42 @@
+{
+  "model": {
+    "on_false": {
+      "on_false": {
+        "on_false": {
+          "model": "minecraft:item/iron_sword",
+          "type": "minecraft:model"
+        },
+        "on_true": {
+          "model": "packshq:item/sword/livid_dagger",
+          "type": "minecraft:model"
+        },
+        "predicate": "custom_data",
+        "property": "minecraft:component",
+        "type": "minecraft:condition",
+        "value": {
+          "id": "LIVID_DAGGER"
+        }
+      },
+      "on_true": {
+        "model": "packshq:item/sword/hunter_knife",
+        "type": "minecraft:model"
+      },
+      "predicate": "custom_data",
+      "property": "minecraft:component",
+      "type": "minecraft:condition",
+      "value": {
+        "id": "HUNTER_KNIFE"
+      }
+    },
+    "on_true": {
+      "model": "packshq:item/sword/flaming_sword",
+      "type": "minecraft:model"
+    },
+    "predicate": "custom_data",
+    "property": "minecraft:component",
+    "type": "minecraft:condition",
+    "value": {
+      "id": "FLAMING_SWORD"
+    }
+  }
+}

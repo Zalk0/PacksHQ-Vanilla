@@ -1,0 +1,18 @@
+{
+  "model": {
+    "on_false": {
+      "model": "minecraft:item/iron_axe",
+      "type": "minecraft:model"
+    },
+    "on_true": {
+      "model": "packshq:item/sword/raider_axe",
+      "type": "minecraft:model"
+    },
+    "predicate": "custom_data",
+    "property": "minecraft:component",
+    "type": "minecraft:condition",
+    "value": {
+      "id": "RAIDER_AXE"
+    }
+  }
+}

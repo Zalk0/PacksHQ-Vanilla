@@ -1,0 +1,26 @@
+{
+  "model": {
+    "cases": [
+      {
+        "model": {
+          "model": "packshq:item/ui/null_pane",
+          "type": "minecraft:model"
+        },
+        "when": [
+          {
+            "extra": [ " " ],
+            "italic": false,
+            "text": ""
+          }
+        ]
+      }
+    ],
+    "component": "custom_name",
+    "fallback": {
+      "model": "minecraft:item/black_stained_glass_pane",
+      "type": "minecraft:model"
+    },
+    "property": "minecraft:component",
+    "type": "minecraft:select"
+  }
+}

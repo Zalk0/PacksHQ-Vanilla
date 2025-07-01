@@ -1,0 +1,18 @@
+{
+  "model": {
+    "on_false": {
+      "model": "minecraft:item/golden_sword",
+      "type": "minecraft:model"
+    },
+    "on_true": {
+      "model": "packshq:item/sword/rogue_sword",
+      "type": "minecraft:model"
+    },
+    "predicate": "custom_data",
+    "property": "minecraft:component",
+    "type": "minecraft:condition",
+    "value": {
+      "id": "ROGUE_SWORD"
+    }
+  }
+}

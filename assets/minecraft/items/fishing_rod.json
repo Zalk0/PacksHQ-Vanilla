@@ -1,0 +1,34 @@
+{
+  "model": {
+    "on_false": {
+      "on_false": {
+        "model": "minecraft:item/fishing_rod",
+        "type": "minecraft:model"
+      },
+      "on_true": {
+        "model": "minecraft:item/fishing_rod_cast",
+        "type": "minecraft:model"
+      },
+      "property": "minecraft:fishing_rod/cast",
+      "type": "minecraft:condition"
+    },
+    "on_true": {
+      "on_false": {
+        "model": "packshq:item/tool/grappling_hook",
+        "type": "minecraft:model"
+      },
+      "on_true": {
+        "model": "packshq:item/tool/grappling_hook_cast",
+        "type": "minecraft:model"
+      },
+      "property": "minecraft:fishing_rod/cast",
+      "type": "minecraft:condition"
+    },
+    "predicate": "custom_data",
+    "property": "minecraft:component",
+    "type": "minecraft:condition",
+    "value": {
+      "id": "GRAPPLING_HOOK"
+    }
+  }
+}
