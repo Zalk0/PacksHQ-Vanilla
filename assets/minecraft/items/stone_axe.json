@@ -1,0 +1,30 @@
+{
+  "model": {
+    "on_false": {
+      "on_false": {
+        "model": "minecraft:item/stone_axe",
+        "type": "minecraft:model"
+      },
+      "on_true": {
+        "model": "packshq:item/tool/foraging/sculptors_axe",
+        "type": "minecraft:model"
+      },
+      "predicate": "custom_data",
+      "property": "minecraft:component",
+      "type": "minecraft:condition",
+      "value": {
+        "id": "SCULPTORS_AXE"
+      }
+    },
+    "on_true": {
+      "model": "packshq:item/tool/foraging/rookie_axe",
+      "type": "minecraft:model"
+    },
+    "predicate": "custom_data",
+    "property": "minecraft:component",
+    "type": "minecraft:condition",
+    "value": {
+      "id": "ROOKIE_AXE"
+    }
+  }
+}

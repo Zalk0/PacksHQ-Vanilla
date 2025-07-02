@@ -1,18 +1,42 @@
 {
   "model": {
     "on_false": {
-      "model": "minecraft:item/iron_axe",
-      "type": "minecraft:model"
+      "on_false": {
+        "on_false": {
+          "model": "minecraft:item/iron_axe",
+          "type": "minecraft:model"
+        },
+        "on_true": {
+          "model": "packshq:item/tool/foraging/sweet_axe",
+          "type": "minecraft:model"
+        },
+        "predicate": "custom_data",
+        "property": "minecraft:component",
+        "type": "minecraft:condition",
+        "value": {
+          "id": "SWEET_AXE"
+        }
+      },
+      "on_true": {
+        "model": "packshq:item/tool/foraging/promising_axe",
+        "type": "minecraft:model"
+      },
+      "predicate": "custom_data",
+      "property": "minecraft:component",
+      "type": "minecraft:condition",
+      "value": {
+        "id": "PROMISING_AXE"
+      }
     },
     "on_true": {
-      "model": "packshq:item/sword/raider_axe",
+      "model": "packshq:item/tool/foraging/efficient_axe",
       "type": "minecraft:model"
     },
     "predicate": "custom_data",
     "property": "minecraft:component",
     "type": "minecraft:condition",
     "value": {
-      "id": "RAIDER_AXE"
+      "id": "EFFICIENT_AXE"
     }
   }
 }
